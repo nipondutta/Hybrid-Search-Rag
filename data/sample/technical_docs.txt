@@ -1,0 +1,14 @@
+Document 1: API Gateway Errors
+An HTTP 504 Gateway Timeout occurs when a gateway does not receive a timely response from an upstream server. Check server response times, network connectivity, and timeout configuration.
+
+Document 2: Authentication
+HTTP 401 indicates that authentication credentials are missing or invalid. Check the API key, access token, and authentication configuration.
+
+Document 3: Database Performance
+Slow database queries can increase API response times. Use query profiling, appropriate indexes, and connection pool monitoring to identify bottlenecks.
+
+Document 4: HTTP Rate Limits
+HTTP 429 means that a client has sent too many requests. Implement retry logic with exponential backoff and respect the server rate limit policy.
+
+Document 5: Server Errors
+HTTP 500 indicates an internal server error. Review application logs, exception traces, and service health.
